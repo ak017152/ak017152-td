@@ -1,0 +1,679 @@
+[
+  {
+    "cloudsoc": "/static/ng/appStore/index.html#/",
+    "sec": "/cloudsoc/appStore"
+  },
+  {
+    "cloudsoc": "/ui/dashboard#/",
+    "sec": "/cloudsoc/appDashboards/activity"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards/index.html#/",
+    "sec": "/cloudsoc/appDashboards/activity"
+  },
+  {
+    "cloudsoc": "/ui/dashboards/monitoring-alerts/performance",
+    "sec": "/cloudsoc/appDashboards/monitoring-alerts/performance"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/",
+    "sec": "/cloudsoc/appDashboards/reporting"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/manage-widget",
+    "sec": "/cloudsoc/appDashboards/reporting/manage-widget"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/manage-dashboards",
+    "sec": "/cloudsoc/appDashboards/reporting/manage-dashboards"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/manage-scheduled-reports",
+    "sec": "/cloudsoc/appDashboards/reporting/manage-scheduled-reports"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/",
+    "sec": "/cloudsoc/securlets"
+  },
+  {
+    "cloudsoc": "/ui/saas/accounts",
+    "sec": "/cloudsoc/securlets/saas/accounts",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/ui/saas/accounts",
+    "sec": "/cloudsoc/securlets/saas"
+  },
+  {
+    "cloudsoc": "/ui/saas/exposures",
+    "sec": "/cloudsoc/securlets/saas/exposures"
+  },
+  {
+    "cloudsoc": "/ui/saas/activities",
+    "sec": "/cloudsoc/securlets/saas/activities"
+  },
+  {
+    "cloudsoc": "/ui/saas/dashboard/security-posture",
+    "sec": "/cloudsoc/securlets/saas/security-posture"
+  },
+  {
+    "cloudsoc": "/ui/saas/accounts/github",
+    "sec": "/cloudsoc/securlets/saas/github/accounts",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/ui/saas/accounts/github",
+    "sec": "/cloudsoc/securlets/saas/github"
+  },
+  {
+    "cloudsoc": "/ui/saas/activities/github",
+    "sec": "/cloudsoc/securlets/saas/github/activities"
+  },
+  {
+    "cloudsoc": "/ui/saas/exposures/github",
+    "sec": "/cloudsoc/securlets/saas/github/exposures"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/box?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/box/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/box?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/box"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/box?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/box/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/box?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/box/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/box?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/box/activities"
+  },
+  {
+    "cloudsoc": "/ui/saas/rescan/box",
+    "sec": "/cloudsoc/securlets/saas/box/rescan"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/googleapps/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/googleapps"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/googleapps/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/googleapps/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=apps",
+    "sec": "/cloudsoc/securlets/saas/googleapps/apps"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/googleapps?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/googleapps/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/dropbox?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/dropbox/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/dropbox?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/dropbox"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/dropbox?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/dropbox/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/dropbox?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/dropbox/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/dropbox?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/dropbox/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/salesforce/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/salesforce"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/salesforce/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/salesforce/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=apps",
+    "sec": "/cloudsoc/securlets/saas/salesforce/apps"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/salesforce/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/salesforce?deeplink=Encryption",
+    "sec": "/cloudsoc/securlets/saas/salesforce/encryption"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/office365/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/office365"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/office365/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/office365/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=apps",
+    "sec": "/cloudsoc/securlets/saas/office365/apps"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/office365?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/office365/exposed-files"
+  },
+  {
+    "cloudsoc": "/ui/saas/ices/office365",
+    "sec": "/cloudsoc/securlets/saas/office365/ices"
+  },
+  {
+    "cloudsoc": "/ui/saas/rescan/office_365",
+    "sec": "/cloudsoc/securlets/saas/office365/rescan",
+    "note": "This mapping and the next have duplicated SEC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/ui/saas/rescan/office365",
+    "sec": "/cloudsoc/securlets/saas/office365/rescan"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=messages",
+    "sec": "/cloudsoc/securlets/saas/slack/messages",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=messages",
+    "sec": "/cloudsoc/securlets/saas/slack"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/slack/exposed-files"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/slack/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/slack/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/slack?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/slack/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=messages",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark/messages",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=messages",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark/exposed-files"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/cisco_spark?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/cisco_spark/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/facebookworkplace?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/facebookworkplace/exposed-files",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/facebookworkplace?deeplink=exposed_files",
+    "sec": "/cloudsoc/securlets/saas/facebookworkplace"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/facebookworkplace?deeplink=exposed_users",
+    "sec": "/cloudsoc/securlets/saas/facebookworkplace/exposed-users"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/facebookworkplace?deeplink=other_risks",
+    "sec": "/cloudsoc/securlets/saas/facebookworkplace/other-risks"
+  },
+  {
+    "cloudsoc": "/static/ng/appSecurlets/index.html#/facebookworkplace?deeplink=activities",
+    "sec": "/cloudsoc/securlets/saas/facebookworkplace/activities"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/?dashboard_id=63ff31fc1c31833d9e31c888",
+    "sec": "/cloudsoc/securlets/saas/legacy-github"
+  },
+  {
+    "cloudsoc": "/static/ng/appDashboards2/index.html#/?dashboard_id=5fab3cf4d0ce827eedf42c99",
+    "sec": "/cloudsoc/securlets/saas/service-now"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections",
+    "sec": "/cloudsoc/securlets/iaas/connections",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections",
+    "sec": "/cloudsoc/securlets/iaas"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/accounts",
+    "sec": "/cloudsoc/securlets/iaas/accounts"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/resources",
+    "sec": "/cloudsoc/securlets/iaas/resources"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/storage",
+    "sec": "/cloudsoc/securlets/iaas/storage"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/documents",
+    "sec": "/cloudsoc/securlets/iaas/documents"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/activities",
+    "sec": "/cloudsoc/securlets/iaas/activities"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections/azure",
+    "sec": "/cloudsoc/securlets/iaas/azure"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections/gcp",
+    "sec": "/cloudsoc/securlets/iaas/gcp"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections/aws",
+    "sec": "/cloudsoc/securlets/iaas/aws"
+  },
+  {
+    "cloudsoc": "/ui/iaas/inventory/connections/aws",
+    "sec": "/cloudsoc/securlets/iaas/aws/connections"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/summary",
+    "sec": "/cloudsoc/appAudit/summary"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/infographic",
+    "sec": "/cloudsoc/appAudit/infographic"
+  },
+  {
+    "cloudsoc": "/static/ng/appAudit/index.html#/audit-report",
+    "sec": "/cloudsoc/appAudit/audit-report"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/services",
+    "sec": "/cloudsoc/appAudit/services"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/sites",
+    "sec": "/cloudsoc/appAudit/sites"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/users",
+    "sec": "/cloudsoc/appAudit/users"
+  },
+  {
+    "cloudsoc": "/static/ng/appAudit/index.html#/sources",
+    "sec": "/cloudsoc/appAudit/sources"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/destinations",
+    "sec": "/cloudsoc/appAudit/destinations"
+  },
+  {
+    "cloudsoc": "/static/ng/appAudit/index.html#/firewall",
+    "sec": "/cloudsoc/appAudit/firewall"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/preferences",
+    "sec": "/cloudsoc/appAudit/preferences"
+  },
+  {
+    "cloudsoc": "/static/ng/appAudit/index.html#/schedule-report",
+    "sec": "/cloudsoc/appAudit/schedule-report"
+  },
+  {
+    "cloudsoc": "/ui/appAudit/compareservices",
+    "sec": "/cloudsoc/appAudit/compareservices"
+  },
+  {
+    "cloudsoc": "/ui/appThreats",
+    "sec": "/cloudsoc/appThreats"
+  },
+  {
+    "cloudsoc": "/ui/appThreats/dashboard/4c19141c-4ed9-43df-b982-db76c1d43ea2",
+    "sec": "/cloudsoc/appThreats/users/risk-score",
+    "note": "This mapping and the next have duplicated CloudSOC URLs, order is important"
+  },
+  {
+    "cloudsoc": "/ui/appThreats/dashboard/4c19141c-4ed9-43df-b982-db76c1d43ea2",
+    "sec": "/cloudsoc/appThreats/users"
+  },
+  {
+    "cloudsoc": "/ui/appThreats/dashboard/6cf9394a-e7d5-4085-91d7-a2f8c8c42af3",
+    "sec": "/cloudsoc/appThreats/users/inactivity"
+  },
+  {
+    "cloudsoc": "/ui/appThreats/dashboard/534d15a1-6939-4549-a814-153790afd9fd",
+    "sec": "/cloudsoc/appThreats/incidents"
+  },
+  {
+    "cloudsoc": "/ui/appThreats/incidents",
+    "sec": "/cloudsoc/appThreats/incidents/list"
+  },
+  {
+    "cloudsoc": "/static/ng/appThreats/index.html#/?deeplink=attackLocations",
+    "sec": "/cloudsoc/appThreats/attackLocations"
+  },
+  {
+    "cloudsoc": "/static/ng/appThreats/index.html#/preferences",
+    "sec": "/cloudsoc/appThreats/preferences"
+  },
+  {
+    "cloudsoc": "/static/ng/appControls/index.html#/",
+    "sec": "/cloudsoc/appControls"
+  },
+  {
+    "cloudsoc": "/static/ng/appControls/index.html#/?deeplink=Policies",
+    "sec": "/cloudsoc/appControls/policies"
+  },
+  {
+    "cloudsoc": "/static/ng/appControls/index.html#/manage-policy",
+    "sec": "/cloudsoc/appControls/policies/manage-policy"
+  },
+  {
+    "cloudsoc": "/ui/protect/indices",
+    "sec": "/cloudsoc/protect/indices"
+  },
+  {
+    "cloudsoc": "/ui/protect/dlpprofiles",
+    "sec": "/cloudsoc/protect/dlpprofiles"
+  },
+  {
+    "cloudsoc": "/ui/protect/dlpprofiles/dataidentifiers",
+    "sec": "/cloudsoc/protect/dataidentifiers"
+  },
+  {
+    "cloudsoc": "/ui/protect/dlpprofiles/reusable",
+    "sec": "/cloudsoc/protect/reusable"
+  },
+  {
+    "cloudsoc": "/ui/protect/dlpprofiles/reusable",
+    "sec": "/cloudsoc/protect/patterns",
+    "note": "This is an old URL that can be removed, after EC updates their nav to stop using it"
+  },
+  {
+    "cloudsoc": "/ui/protect/dlpprofiles/aliases",
+    "sec": "/cloudsoc/protect/aliases"
+  },
+  {
+    "cloudsoc": "/ui/protect/custom-groups",
+    "sec": "/cloudsoc/protect/custom-groups"
+  },
+  {
+    "cloudsoc": "/ui/protect/cspmprofiles",
+    "sec": "/cloudsoc/protect/cspmprofiles"
+  },
+  {
+    "cloudsoc": "/static/ng/appControls/index.html#/response-templates",
+    "sec": "/cloudsoc/protect/response-templates"
+  },
+  {
+    "cloudsoc": "/static/ng/appControls/index.html#/manage-response-template",
+    "sec": "/cloudsoc/protect/response-templates/manage-response-template"
+  },
+  {
+    "cloudsoc": "/ui/appForensics",
+    "sec": "/cloudsoc/appForensics"
+  },
+  {
+    "cloudsoc": "/appForensics/history",
+    "sec": "/cloudsoc/appForensics/history"
+  },
+  {
+    "cloudsoc": "/appForensics/history?Object_type=Telemetry&range=1mo",
+    "sec": "/cloudsoc/appForensics/usage"
+  },
+  {
+    "cloudsoc": "/ui/appForensics/dlp-incidents",
+    "sec": "/cloudsoc/appForensics/dlp-incidents"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint",
+    "sec": "/cloudsoc/dlpendpoint"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint/devices",
+    "sec": "/cloudsoc/dlpendpoint/devices"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint/event",
+    "sec": "/cloudsoc/dlpendpoint/events"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint/configurations",
+    "sec": "/cloudsoc/dlpendpoint/configurations"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint/global-app-monitor",
+    "sec": "/cloudsoc/dlpendpoint/global-app-monitor"
+  },
+  {
+    "cloudsoc": "/ui/dlpendpoint/package",
+    "sec": "/cloudsoc/dlpendpoint/package"
+  },
+  {
+    "cloudsoc": "/ui/analyze",
+    "sec": "/cloudsoc/analyze"
+  },
+  {
+    "cloudsoc": "/ui/analyze/analyzer",
+    "sec": "/cloudsoc/analyze"
+  },
+  {
+    "cloudsoc": "/ui/analyze/dashboard",
+    "sec": "/cloudsoc/analyze/dashboard"
+  },
+  {
+    "cloudsoc": "/ui/analyze/download",
+    "sec": "/cloudsoc/analyze/download"
+  },
+  {
+    "cloudsoc": "/ui/analyze/querymanager",
+    "sec": "/cloudsoc/analyze/querymanager"
+  },
+  {
+    "cloudsoc": "/ui/analyze/dashboardedit",
+    "sec": "/cloudsoc/analyze/dashboardedit"
+  },
+  {
+    "cloudsoc": "/ui/analyze/widgetedit",
+    "sec": "/cloudsoc/analyze/widgetedit"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account",
+    "sec": "/cloudsoc/account"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=general",
+    "sec": "/cloudsoc/account/general"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/profile",
+    "sec": "/cloudsoc/account/profile"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=contact",
+    "sec": "/cloudsoc/account/contact"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=single-signon",
+    "sec": "/cloudsoc/account/single-signon"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=privacy",
+    "sec": "/cloudsoc/account/privacy"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=ci",
+    "sec": "/cloudsoc/account/ci"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=threat-protection",
+    "sec": "/cloudsoc/account/threat-protection"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=ssh-key",
+    "sec": "/cloudsoc/account/ssh-key"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=api-key",
+    "sec": "/cloudsoc/account/api-key"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=event-streaming",
+    "sec": "/cloudsoc/account/event-streaming"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=siem",
+    "sec": "/cloudsoc/account/siem"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=tags",
+    "sec": "/cloudsoc/account/tags"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=ip-addresses",
+    "sec": "/cloudsoc/account/ip-address"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=data-archive",
+    "sec": "/cloudsoc/account/data-archive"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=auth",
+    "sec": "/cloudsoc/account/auth",
+    "note": "This is an old URL that can be removed, after EC updates their nav to stop using it"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=drm",
+    "sec": "/cloudsoc/account/drm"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=wss-gateway",
+    "sec": "/cloudsoc/account/wss-gateway"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=audit-agent",
+    "sec": "/cloudsoc/account/audit-agent"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=devices",
+    "sec": "/cloudsoc/account/devices"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/account?deeplink=protect",
+    "sec": "/cloudsoc/account/protect"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/users",
+    "sec": "/cloudsoc/account/users"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/",
+    "sec": "/cloudsoc/account/users"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/groups",
+    "sec": "/cloudsoc/account/users/groups"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/profiles",
+    "sec": "/cloudsoc/account/users/profiles"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/groups?deeplink=users",
+    "sec": "/cloudsoc/account/users",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/users and /static/ng/appAccount/index.html#/groups"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/profiles?deeplink=users",
+    "sec": "/cloudsoc/account/users",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/users and /static/ng/appAccount/index.html#/profiles"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/users?deeplink=groups",
+    "sec": "/cloudsoc/account/users/groups",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/groups and /static/ng/appAccount/index.html#/users"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/profiles?deeplink=groups",
+    "sec": "/cloudsoc/account/users/groups",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/groups and /static/ng/appAccount/index.html#/profiles"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/users?deeplink=profiles",
+    "sec": "/cloudsoc/account/users/profiles",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/profiles and /static/ng/appAccount/index.html#/users"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/groups?deeplink=profiles",
+    "sec": "/cloudsoc/account/users/profiles",
+    "note": "This mapping must come after /static/ng/appAccount/index.html#/profiles and /static/ng/appAccount/index.html#/groups"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/manage-profile",
+    "sec": "/cloudsoc/account/users/profiles/manage-profile"
+  },
+  {
+    "cloudsoc": "/static/ng/appAccount/index.html#/notifications",
+    "sec": "/cloudsoc/account/notifications"
+  }
+]
